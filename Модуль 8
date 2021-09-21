@@ -1,0 +1,45 @@
+ЗАДАНИЕ 1
+let a = prompt ("input");
+a = a++;
+alert (typeof a);
+  
+if (a/2 === 0) {
+  alert ("четное");
+  
+}
+else if (a/2 === a) {
+  alert ("нечетное");
+ 
+}
+else {
+  alert("Упс, кажется вы ошиблись")
+}
+
+ЗАДАНИЕ 2
+let x =  prompt  ("input");
+
+switch (x) {
+  case "string":
+    alert( 'number' );
+    break;
+  case "number":
+    alert( 'string!' );
+    break;
+  case "boolean":
+    alert( 'boolean' );
+    break;
+  default:
+    alert( "Тип x-не определен" );
+}
+ЗАДАНИЕ 3
+s =("Hello")
+function reverse(s){
+    return s.split("").reverse().join("");
+}
+console.log(reverse(s));
+ЗАДАНИЕ 4
+function  getRandomRange(min, max) {
+    return Math.floor(Math.random() * (max-min));
+  }
+  
+  console.log(getRandomRange(0, 100));
