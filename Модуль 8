@@ -43,3 +43,19 @@ function  getRandomRange(min, max) {
   }
   
   console.log(getRandomRange(0, 100));
+  
+ ЗАДАНИЕ 5.
+ 
+ let arr = ["Frodo","Sam","Merry","Pippin","Gollum"];
+
+console.log(arr.length);
+
+let i = 0;
+
+let asd = setInterval( function() {
+  let x = arr[i++] || clearInterval( asd );
+  if( x !== undefined ) console.log( x );
+}, 1000);
+
+ 
+ 
