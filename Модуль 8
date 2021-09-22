@@ -3,11 +3,11 @@ let a = prompt ("input");
 a = a++;
 alert (typeof a);
   
-if (a/2 === 0) {
+if (a%2 === 0) {
   alert ("четное");
   
 }
-else if (a/2 === a) {
+else if (a%1 === 0) {
   alert ("нечетное");
  
 }
