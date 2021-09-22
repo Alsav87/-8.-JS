@@ -92,6 +92,18 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(`В массиве: ${numbercount} цифр, ${zerocount} нулей, ${evencount} чётных, ${oddcount} нечётных`);
 
+ЗАДАНИЕ 8.
+
+let fruits = new Map([
+    ["apple", "green"],
+    ["strawberry", "red"],
+    ["blueberry", "blue"]
+]);
+fruits.forEach((value, key) => {
+    console.log(`${key} - x = ${value} - y`);
+});
+
+
 
  
  
