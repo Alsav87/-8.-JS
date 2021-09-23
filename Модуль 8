@@ -129,6 +129,23 @@ function getArraysOddAndEvenCount(arr) {
     console.log(`В массиве ${numbercount} цифр, ${zerocount} нулей, ${evencount} чётных, ${oddcount} нечётных`);
 }
    getArraysOddAndEvenCount(arr);
+   
+   ЗАДАНИЕ 10
+   
+   function PrimeNumber(n) {
+            if (!Number.isInteger(n) || n < 2 || n > 1000) return "данные неверны";
+ 
+            let k = Math.sqrt(n);
+            for (let i = 2; i <= k; i++)
+                if (n % i === 0) return "составное число";
+ 
+            return "простое число";
+        }
+       
+        console.log(PrimeNumber(1010));
+        console.log(PrimeNumber(24));
+        console.log(PrimeNumber(3));
+        
 
 
 
